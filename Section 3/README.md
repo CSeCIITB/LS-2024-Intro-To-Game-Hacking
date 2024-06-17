@@ -85,7 +85,10 @@ Adding the following lines will allow for a long-hover or a "flying-like" state 
     player->m_jumpHoldTime = 99999;
 ```
 
-You can now play around with this and try to modify your game to your advantage.
+You can now play around with this and try to modify your game to your advantage. 
+
+>Flag of the Cow: <br>
+>With these newly acquired jumping and sprinting skills we can now obtain our very first flag! This flag is hidden on an island which is far away from our main island. Can you find the island and defeat the Cow King to get the flag?
 
 ----
 
