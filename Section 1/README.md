@@ -65,7 +65,7 @@ We are of course interested in the educational motivation of gaining a deeper un
 
 ## How to hack games?
 
-We’ll be doing these hacks hands-on by trying them out on the game PwnAdventure3, created by Vector35. This game is specifically designed for practicing game hacking techniques. Refer to [`Docker Server`]() for instructions to set up the game client and server.
+We’ll be doing these hacks hands-on by trying them out on the game PwnAdventure3, created by Vector35. This game is specifically designed for practicing game hacking techniques. Refer to [`Docker Server`](./SETUP.md) for instructions to set up the game client and server.
 
 Come back to this guide after you have downloaded the game and successfully connected to the server.
 
