@@ -215,4 +215,33 @@ If you try to compile your cpp file you will get a lot of errors regarding undec
 1. Finding the class or struct structure in GDB using ptype
 2. Copying that code into the header file <br>
 
-Doing this iteratively will eventually include all classes and will compile the cpp file without any error messages. Submit the header file and the cpp file.
+Doing this iteratively will eventually include all classes and will compile the cpp file without any error messages. 
+After reaching till this point where you **don't have any more error messages**, copy and paste this in your `.cpp` file and compile it.
+
+```cpp
+#include <dlfcn.h>
+#include <set>
+#include <map>
+#include <functional>
+#include <string>
+#include <vector>
+#include<iostream>
+#include "libGameLogic.h"
+
+void Player::SetJumpState(bool b){
+    printf("[*] SetJumpState(%d)\n",b);
+}
+```
+
+To test that the `libGameLogic.h` file has the correct contents, run the following command and notice the terminal when jumping in game.
+
+```bash
+# Compile into a shared-object file
+g++ hack.cpp -std=c++11 -shared -o hack.so -fPIC
+# Preload the shared object into the game
+LD_PRELOAD=hack.so ./PwnAdventure3-Linux-Shipping
+```
+
+You should see some output on jumping in game.
+
+Submit the header file and the cpp file.
