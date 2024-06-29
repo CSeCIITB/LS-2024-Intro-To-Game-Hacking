@@ -76,4 +76,4 @@ Welcome back! By now you should have installed the game client and server and sh
 The assignment of this week is to make a character with your name and Escape the Lost Cave and come out on the open area of the island. Then log out of the server and log back in. Just before selecting your character take a screenshot of the character selection menu. It should show your player name and the background should not be of the cave. Here is an example:
 ![player on island](https://imgur.com/6m6ds5f.png)
 
-Submit this assignment [here]().
+Submit this assignment [here](https://forms.gle/MfyopbGshsgTFXDc7).
