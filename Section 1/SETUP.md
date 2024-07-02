@@ -30,13 +30,6 @@ Second, gather all necessary files:
 
 Download the Server Files from [here](https://iitbacin-my.sharepoint.com/:u:/g/personal/22b0995_iitb_ac_in/ETEmMpV1LJBHhIThBW3WytEBY6KtD6ycnILd8jtqdjBfsw?e=YKpyuh) and extract them.
 
-Next, download the client from the following link:
-
-```bash
-wget http://pwnadventure.com/pwn3.tar.gz
-tar -xvf pwn3.tar.gz
-```
-
 In order to run the server, `docker` and `docker-compose` have to be installed. Docker is moving fast, so it's a good idea to follow the current official steps for installation (which could also include to remove an older system version of docker): 
 
 * Docker CE Ubuntu: [https://docs.docker.com/install/linux/docker-ce/ubuntu/](https://docs.docker.com/install/linux/docker-ce/ubuntu/). 
@@ -97,9 +90,9 @@ Start the server:
 ```bash
 docker-compose up -d
 ```
-Start the Client by running the game launcher:
+Start the Client by running the game binary:
 ```bash
-./PwnAdventure3
+./PwnAdventure3_Data/PwnAdventure3/PwnAdventure3/Binaries/Linux/PwnAdventure3-Linux-Shipping
 ```
 This should open the game's home screen.
 
