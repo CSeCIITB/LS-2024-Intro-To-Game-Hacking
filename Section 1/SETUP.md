@@ -92,7 +92,8 @@ docker-compose up -d
 ```
 Start the Client by running the game binary:
 ```bash
-./PwnAdventure3_Data/PwnAdventure3/PwnAdventure3/Binaries/Linux/PwnAdventure3-Linux-Shipping
+cd ./PwnAdventure3_Data/PwnAdventure3/PwnAdventure3/Binaries/Linux
+./PwnAdventure3-Linux-Shipping
 ```
 This should open the game's home screen.
 
