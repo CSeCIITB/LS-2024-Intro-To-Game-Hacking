@@ -244,4 +244,4 @@ LD_PRELOAD=hack.so ./PwnAdventure3-Linux-Shipping
 
 You should see some output on jumping in game.
 
-Upload the header file and the cpp file in a Github repository/Google Drive and submit the link to the repo/drive folder here: https://forms.gle/Pr4HV6ifi61AmSjeA.
+Upload the text file for part 1 and the header file and the cpp file for part 2 in a Github repository/Google Drive and submit the link to the repo/drive folder here: https://forms.gle/Pr4HV6ifi61AmSjeA.
