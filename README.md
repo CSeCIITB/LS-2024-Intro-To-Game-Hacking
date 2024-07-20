@@ -28,7 +28,9 @@ _Write an LD_PRELOAD script to modify player attributes for fun and advantage._
 **Week 4:**  
 _Project: "Golden Eggs" - Disassemble the binary to uncover all coordinates and develop a teleportation feature to collect those golden eggs._
 
+## Deadline
 
+The deadline for the assignemnts is **21st July EOD**. The deadline for both parts of the project is **27th July EOD**.
 
 ## Grading
 
